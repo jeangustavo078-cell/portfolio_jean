@@ -887,6 +887,16 @@ body {
    Responsive Styles
    =========================== */
 @media (max-width: 1024px) {
+  .hero {
+    padding: 0;
+  }
+   
+  .hero-title {
+    font-size: 8vw;
+    text-align: center;
+    margin-left: -10px;
+  }
+
   .packages-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
